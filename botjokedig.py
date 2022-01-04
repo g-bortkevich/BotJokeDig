@@ -1,6 +1,6 @@
 import telebot #импорт pyTelegramBotAPI - подключаем библиотеку для работы в телеграм
 import random #рандом - библиотека для получения случайых чисел
-bot = telebot.TeleBot("5072458067:AAGNfscfb3fkFqvSiJxDEYhBDIDHuga3HEE")#ключ бота который нам выдал BotFather
+bot = telebot.TeleBot("5072458067:AAGNfscfb3fkFqvSiJxDEYhBDIDHuga3HEE") #ключ бота который нам выдал BotFather
 rnd = 0
 
 step = 0
