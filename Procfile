@@ -1,1 +1,1 @@
-worker: python botjokedig.py 
+worker: python botjokedig.py
