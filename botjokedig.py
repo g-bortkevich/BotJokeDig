@@ -7,7 +7,7 @@ step = 0
 usrdict = dict() #Создадим словарь пользователей 
 stepdict = dict() #Создадим словарь ходов пользователей
 
-@bot.message_handler()
+@bot.message_handler() #commands=['start']
 def send_welcome(message): #Основная процедура которая обрабатывает сообщения с клавиатуры. Параметр message - это текст отправленного сообщения  
     usrdig = message.text #Присвоим переменной текст, который пользователь ввёл нам в чате
     #step = 0
